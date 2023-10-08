@@ -1,0 +1,33 @@
+body {
+    background-color: #1E1E1E;
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.menu figure {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu figure img {
+    width: 100px;
+}
+
+.menu nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 160px;
+}
+
+.menu nav ul li a {
+    font: 1.5rem 'Itim';
+    color: #E8A2A2;
+}
