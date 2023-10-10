@@ -5,57 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/assets/css/formulario.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&family=Itim&display=swap"
+        rel="stylesheet">
     <title>Formulário</title>
 </head>
 
 <body>
-    <header class="btn-enviar">
-        <figure>
-            <img src="assets/img/logo.jpeg" alt="Logo">
-        </figure>
-        <nav>
-            <ul>
-                <li> <a href="/index.html">Home</a></li>
-                <li> <a href="/formulario.html">Contato</a> </li>
-            </ul>
-        </nav>
-    </header>
-
-    <main id="formulario">
-        <h1>Contato</h1>
-        <form>
-            <div class="input">
-                <label for="nome">Nome</label>
-                <input type="text" name='nome' id='nome'>
+    <div id="conteudo-form">
+        <header>
+            <div class="menu">
+                <figure>
+                    <img src="assets/img/logo.jpeg" alt="Logo da JJL">
+                </figure>
+                <nav>
+                    <ul>
+                        <li> <a href="/index.html">Home</a></li>
+                        <li> <a href="/formulario.html">Contato</a> </li>
+                    </ul>
+                </nav>
             </div>
-
-            <div class="input">
-                <label for="email">E-mail:</label>
-                <input type="email" name="email" id="email">
+        </header>
+    
+        <main id="formulario">
+            <h1>Contato</h1>
+            <form>
+                <div class="input">
+                    <label for="nome">Nome</label>
+                    <input type="text" name='nome' id='nome'>
+                </div>
+    
+                <div class="input">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="mensagem">
+                    <label for="mensagem"> Mensagem:</label>
+                    <textarea id="mensagem"> Digite a sua mensagem neste campo</textarea>
+                </div>
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
+    
+        </main>
+    
+        <footer>
+            <div>
+                <img src="JJL.jpg" alt="logo da JJL" />
             </div>
-            <div class="mensagem">
-                <label for="mensagem"> Mensagem:</label>
-                <textarea id="mensagem"> Digite a sua mensagem neste campo</textarea>
+    
+            <div>
+                <hr>
+                <p> Dados Pessoais </p>
+                <p><strong>E-mail: </strong> jjl@contato.com.br</p>
+                <p><strong> Telefone:</strong> 90000-0000</p>
             </div>
-            <button type="submit">
-                Enviar
-            </button>
-        </form>
-
-    </main>
-
-    <footer>
-        <div>
-            <img src="JJL.jpg" alt="logo da JJL" />
-        </div>
-
-        <div>
-            <hr>
-            <p> Dados Pessoais </p>
-            <p><strong>E-mail: </strong> jjl@contato.com.br</p>
-            <p><strong> Telefone:</strong> 90000-0000</p>
-        </div>
-    </footer>
+        </footer>
+    </div>
+    
 </body>
 
 </html>

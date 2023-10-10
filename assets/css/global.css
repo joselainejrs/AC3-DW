@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#conteudo, #conteudo-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #1E1E1E;
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin: 0 auto;
+}
+
+.menu figure img {
+    width: 100px;
+}
+
+ .menu nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 160px;
+}
+
+ .menu nav ul li a {
+    font: 1.5rem 'Itim';
+    color: #E8A2A2;
+    text-decoration: none;
+}

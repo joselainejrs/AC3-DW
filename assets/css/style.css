@@ -1,33 +1,76 @@
-body {
-    background-color: #1E1E1E;
+
+#conteudo #destaque{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
 }
 
-header .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1200px;
+#conteudo #destaque figure img {
+    width: 300px;
+}
+
+#conteudo header #destaque .apresentacao{
+    margin: 50px 0 50px;
+}
+
+#conteudo #destaque .apresentacao h1{
+    color: #E8A2A2;
+    font: 700 3rem 'Inter';
+}
+
+#destaque .apresentacao p{
+    font: 1.3rem 'Itim';
+    text-align: center;
+}
+
+/* Parte do quem sou  */
+
+#conteudo .titulo{
+    font: 3rem 'Itim';
+    color: #E8A2A2;
+    text-align: center;
+    margin: 60px;
+}
+
+#conteudo #quem-sou{
     margin: 0 auto;
 }
 
-.menu figure {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.menu figure img {
-    width: 100px;
-}
-
-.menu nav ul {
+#conteudo #quem-sou .soft-hard{
+    margin: 0 auto;
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
-    list-style: none;
-    width: 160px;
+    align-items: center;
 }
 
-.menu nav ul li a {
-    font: 1.5rem 'Itim';
+#conteudo #quem-sou .card-quem-sou{
+    /* margin: 0 auto; */
+    border: 1px solid #E8A2A2;
+    width: 435px;
+    height: 200px;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+
+#conteudo #quem-sou .card-quem-sou h4{
+    font: 1.1rem 'Itim';
     color: #E8A2A2;
+    margin: 10px 0;
+}
+
+#conteudo #quem-sou .card-quem-sou ul p{
+    font: 400 0.9rem 'Inter';
+    color: #E8A2A2;
+}
+
+#conteudo #quem-sou .card-quem-sou ul li {
+    font: 400 0.9rem 'Inter';
+    color: white;
+    margin: 6px 0;
+}
+
+#conteudo #quem-sou .card-quem-sou ul li span{
+    font: 100 0.9rem 'Inter';
+    color: white;
 }
