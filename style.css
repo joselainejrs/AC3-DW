@@ -117,7 +117,103 @@
     padding-left: 10px;
 }
 
-@media (min-width: 300px) and (max-width: 701px) {
+@media (min-width: 300px) and (max-width: 400px) {
+    #destaque .apresentacao p {
+        font: 0.7rem 'Itim';
+    }
+
+    #conteudo .titulo {
+        font: 14px 'Itim';
+    }
+
+    #conteudo #destaque .apresentacao h1 {
+        font: 700 1rem 'Inter';
+    }
+
+    #conteudo #quem-sou .soft-hard {
+        display: block;
+        margin: auto 0;
+    }
+
+    #conteudo #quem-sou .soft-hard .card-quem-sou {
+        margin-bottom: 30px;
+        width: 197px;
+        height: 256px;
+    }
+
+    #conteudo #meus-projetos .projetos {
+        display: block;
+        margin: auto 0;
+    }
+
+    #conteudo #meus-projetos .projetos .card-projetos {
+        margin: 10% 10% !important;
+        height: 422px;
+    }
+
+    
+    #conteudo #meus-projetos .projetos figure img {
+        width: 159px;
+        border-radius: 20px;
+    }
+
+    #conteudo #meus-projetos .projetos .card-projetos {
+        margin: 10% 15%;
+        height: 299px;
+        width: 160px;
+    }
+
+}
+
+@media (min-width: 401px) and (max-width: 505px) {
+    #destaque .apresentacao p {
+        font: 0.7rem 'Itim';
+    }
+
+    #conteudo .titulo {
+        font: 14px 'Itim';
+    }
+
+    #conteudo #destaque .apresentacao h1 {
+        font: 700 2rem 'Inter' !important;
+    }
+
+    #conteudo #quem-sou .soft-hard {
+        display: block;
+        margin: auto 37px;
+    }
+
+    #conteudo #quem-sou .soft-hard .card-quem-sou {
+        margin-bottom: 30px;
+        width: 197px;
+        height: 256px;
+    }
+
+    #conteudo #meus-projetos .projetos {
+        display: block;
+        margin: auto 0;
+    }
+
+    #conteudo #meus-projetos .projetos .card-projetos {
+        margin: 10% 20% !important;
+        height: 422px;
+    }
+
+    
+    #conteudo #meus-projetos .projetos figure img {
+        width: 159px;
+        border-radius: 20px;
+    }
+
+    #conteudo #meus-projetos .projetos .card-projetos {
+        margin: 10% 15%;
+        height: 299px;
+        width: 160px;
+    }
+
+}
+
+@media (min-width: 506px) and (max-width: 701px) {
     #conteudo .titulo {
         font: 2rem 'Itim';
     }

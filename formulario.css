@@ -25,18 +25,6 @@ form {
     margin: 10px 0;
 }
 
-#conteudo-form form .descricao-nome {
-    width: 11.5rem;
-}
-
-#conteudo-form form .descricao-email {
-    width: 12rem;
-}
-
-#conteudo-form form .descricao-msg {
-    width: 14.5rem;
-}
-
 #conteudo-form form label {
     color: white;
     font: 1.3rem 'Itim';
@@ -77,4 +65,51 @@ form {
     border-radius: 10px;
 
     background-color: #E8A2A2;
+}
+
+@media (min-width: 300px) and (max-width: 580px) {
+    form {
+        width: 13rem;
+        height: 29rem;
+    }
+
+    #conteudo-form h1 {
+        margin: 10px 0;
+        font: 2rem 'Itim';
+    }
+
+    #conteudo-form form label {
+        text-align: center;
+    }
+
+    #conteudo-form form input {
+        width: 170px;
+    }
+
+    #conteudo-form form button {
+        width: 170px;
+    }
+
+    #conteudo-form form textarea {
+        width: 170px;
+    }
+
+
+}
+
+@media (min-width: 581px) and (max-width: 700px) {
+    form {
+        width: 24rem;
+        height: 29rem;
+    }
+
+    #conteudo-form h1 {
+        margin: 10px 0;
+        font: 2rem 'Itim';
+    }
+
+    #conteudo-form form label {
+        text-align: center;
+    }
+
 }
