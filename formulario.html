@@ -22,41 +22,36 @@
                 </figure>
                 <nav>
                     <ul>
-                        <li> <a href="/index.html">Home</a></li>
-                        <li> <a href="/formulario.html">Contato</a> </li>
+                        <li> <a href="index.html">Home</a></li>
+                        <li> <a href="formulario.html">Contato</a> </li>
                     </ul>
                 </nav>
             </div>
         </header>
 
         <main>
-            <div id="formulario">
+            <form action="" method="post" id="formulario">
                 <h1>Contato</h1>
-                <form>
-                    <div class="input">
-                        <div>
-                            <label for="nome">Nome:</label>
-                        </div>
-                        <input type="text" name='nome' id='nome'>
+                <div class="input">
+                    <div class="text descricao-nome">
+                        <label for="user-nome">Nome:</label>
                     </div>
-
-                    <div class="input">
-                        <div>
-                            <label for="email">E-mail:</label>
-                        </div>
-                        <input type="email" name="email" id="email">
+                    <input type="text" name="nome" id="user-nome">
+                </div>
+                <div class="input">
+                    <div class="text descricao-email">
+                        <label for="user-email">E-mail:</label>
                     </div>
-                    <div class="mensagem">
-                        <div>
-                            <label for="mensagem"> Mensagem:</label>
-                        </div>
-                        <textarea id="mensagem"> Digite a sua mensagem neste campo</textarea>
+                    <input type="email" name="email" id="user-email">
+                </div>
+                <div class="mensagem">
+                    <div class="text descricao-msg">
+                        <label for="user-mensagem">Mensagem:</label>
                     </div>
-                    <button type="submit">
-                        Enviar
-                    </button>
-                </form>
-            </div>
+                    <textarea name="mensagem" id="user-mensagem"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
         </main>
 
         <footer>

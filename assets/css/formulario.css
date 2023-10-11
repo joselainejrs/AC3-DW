@@ -1,55 +1,80 @@
-main{
+main {
+    text-align: center;
+    width: 100%;
     margin: auto 0;
-    width: 60%;
 }
-#formulario{
-    border: 1px solid #E8A2A2; 
-    /* padding-left: 30px; */
-    border-radius: 20px;
-    /* text-align: center; */
-    max-width: 470px;
-    /* margin: auto 0; */
-    box-shadow: 2px 2px 2px 1px rgba(232, 162, 162, 1);
 
-    display: block;
-    align-items: center;
+form {
+    width: 30rem;
+    height: 35rem;
+    margin-top: 70px;
+    display: inline-block;
+    border-radius: 20px;
+    border: 1px solid #E8A2A2;
+    box-shadow: 2px 2px 2px 1px rgba(232, 162, 162, 1);
 }
-#conteudo-form #formulario h1{
+
+#conteudo-form h1 {
+    margin: 40px 0;
     font: 3rem 'Itim';
     color: #E8A2A2;
     text-align: center;
-    margin: 60px;
 }
-#conteudo-form #formulario form label{
-    text-align: left;
-    font: 1.5rem 'Itim';
+
+#conteudo-form form .text {
+    margin: 10px 0;
+}
+
+#conteudo-form form .descricao-nome {
+    width: 11.5rem;
+}
+
+#conteudo-form form .descricao-email {
+    width: 12rem;
+}
+
+#conteudo-form form .descricao-msg {
+    width: 14.5rem;
+}
+
+#conteudo-form form label {
     color: white;
+    font: 1.3rem 'Itim';
 }
-#conteudo-form #formulario form input{
-    border: 2px solid #AB5959;
-    color: black;
+
+#conteudo-form form input {
+    font: 1rem 'Itim';
+    color: #1E1E1E;
+    padding-left: 8px;
     font-size: 20px;
-    background-color: #E8A2A2;
     width: 350px;
     height: 40px;
-    border-radius: 10px
-}
-
-#conteudo-form #formulario form button{
-    font: 2rem 'Itim';
-    background-color: #AB5959;
-    color: white;
-    width: 400px;
-    height: 50px;
-    border-radius: 10px
-}
-
-#conteudo-form #formulario form textarea{
-    border: 2px solid #AB5959;
-    color: black;
+    border-radius: 10px;
+    border: none;
     background-color: #E8A2A2;
+}
+
+#conteudo-form form button {
+    font: 1.7rem 'Itim';
+    color: #1E1E1E;
+    background-color: #AB5959;
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#conteudo-form form textarea {
+    color: #1E1E1E;
+    font: 1rem 'Itim';
+    padding: 8px;
     width: 350px;
     height: 100px;
-    font-size: 20px;
-    border-radius: 10px
+    margin-bottom: 20px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: #E8A2A2;
 }
