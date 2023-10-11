@@ -24,7 +24,7 @@ Também foi divido em duas telas:
 2º Contém um formulário para preenchimento das informações.
 Todos tem header, main e footer.
 
-https://github.com/joselainejrs/AC3-DW/blob/main/AC3.mp4
+https://github.com/joselainejrs/AC3-DW/assets/55799037/6a0d3622-ed3d-45e7-ad8b-c95775d1de28
 
 <h4 align="center">
 Projeto desenvolvido para Faculdade.
