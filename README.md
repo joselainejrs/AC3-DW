@@ -4,7 +4,7 @@
 </p>
 
 <h4 align="center">
-Projeto da faculdade : Criação de um Site Pessoal
+Projeto de faculdade : Criação de um Site Pessoal
 </h4>
 
 ### Objetivo
@@ -27,5 +27,5 @@ Todos tem header, main e footer.
 https://github.com/joselainejrs/AC3-DW/assets/55799037/6a0d3622-ed3d-45e7-ad8b-c95775d1de28
 
 <h4 align="center">
-Projeto desenvolvido para Faculdade.
+Projeto desenvolvido na Faculdade.
 </h4>
